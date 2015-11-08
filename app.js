@@ -1,4 +1,4 @@
-/*function initialize() {
+function initialize() {
 	var mapCanvas = document.getElementById('map');
 	var mapOptions = {
 		center: new google.maps.LatLng(44.5403, -78.5463),
@@ -8,7 +8,6 @@
 	var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 google.maps.event.addDomListener(window, 'load', initialize);
-*/
 
 //LINK: https://gitlab.oit.duke.edu/toolbox/hackduke15
 
