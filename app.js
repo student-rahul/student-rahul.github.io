@@ -51,6 +51,11 @@ document.addEventListener("DOMContentLoaded", function () {
 	
 	function setPosition(lat, lon) {
 		document.querySelector("#coordinates").innerHTML = lat+", "+lon;
+		var mapOptions = {
+			center: new google.maps.LatLng(lat, lon),
+			zoom: 8,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
 	}
 
 	function sendMessage() {
